@@ -1,6 +1,15 @@
 function primeNumber(a) {
-  /* Your code here */
-}
+  if(a===1){
+   return "NO"
+  } 
+  for(i=2;i<a;i++){
+    if(a%i === 0){
+      return "NO"
+      }
+    }
+return "YES"
+  }
+
 
 const a1 = 10;
 const a2 = 29;
