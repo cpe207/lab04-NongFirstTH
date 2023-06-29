@@ -1,5 +1,11 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  if(typeof a === "string" && typeof b === "string"){
+    return console.log("I LOVE YOU")
+  }else if(typeof a === "number" && typeof b === "number"){
+    return console.log(a+b)
+  }else{
+    return console.log("NOT MATCHED")
+  }
 }
 
 //Test cases
